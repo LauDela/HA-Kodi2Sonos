@@ -31,6 +31,7 @@ RUN \
         php7.3-opcache=7.3.11-1~deb10u1 \
         php7.3-readline=7.3.11-1~deb10u1 \
         php7.3-xml=7.3.11-1~deb10u1 \
+        php7.3-zip=7.3.11-1~deb10u1 \
         php7.3=7.3.11-1~deb10u1 \
         software-properties-common=0.96.20.2-2 \
         unzip=6.0-23+deb10u1 \
