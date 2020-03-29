@@ -14,14 +14,26 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
+        composer=1.8.4-1 \
+        git=1:2.20.1-2+deb10u1 \
+        locales=2.28-10 \
         mariadb-client=1:10.3.22-0+deb10u1 \
+        nginx=1.14.2-2+deb10u1 \
         php7.3-curl=7.3.11-1~deb10u1 \
         php7.3-cli=7.3.11-1~deb10u1 \
         php7.3-common=7.3.11-1~deb10u1 \
+        php7.3-fpm=7.3.11-1~deb10u1 \
+        php7.3-gd=7.3.11-1~deb10u1 \
+        php7.3-intl=7.3.11-1~deb10u1 \
         php7.3-json=7.3.11-1~deb10u1 \
+        php7.3-mbstring=7.3.11-1~deb10u1 \
         php7.3-mysql=7.3.11-1~deb10u1 \
+        php7.3-opcache=7.3.11-1~deb10u1 \
+        php7.3-readline=7.3.11-1~deb10u1 \
         php7.3-xml=7.3.11-1~deb10u1 \
-        php7.3=7.3.11-1~deb10u1 
+        php7.3=7.3.11-1~deb10u1 \
+        software-properties-common=0.96.20.2-2 \
+        unzip=6.0-23+deb10u1 \
 
 
 COPY 000-default.conf /etc/apache2/sites-enabled
