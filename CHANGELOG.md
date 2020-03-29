@@ -3,3 +3,6 @@
 
 **Version 0.02**
 - connexion debug
+
+**Version 0.03**
+- connexion port debug

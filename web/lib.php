@@ -41,7 +41,7 @@ $username = 'kodi';
 $password = 'UiD$19R7610';
 $conn = mysqli_connect($servername, $username, $password,$dbname);
 
-//$conn = mysqli_connect($servername, $db_username, $db_password,$dbname);
+//$conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
 // Check MySQL connection
 if (!$conn) {
  die("Connection failed: " . mysqli_connect_error());
