@@ -19,8 +19,8 @@
 	"Mysql": {
 		"dbname": "MyMusic72",
 		"servername": "ip_of_database_host",
-		"db_username": "your db name",
-		"db_password": "db password"
+		"db_username": "your_db_username",
+		"db_password": "db_password"
 	},
 	"URIreplace": {
 		"uri_search": "smb://MEDIAS/Public/musique",
