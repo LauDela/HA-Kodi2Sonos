@@ -2,9 +2,9 @@
 
 
 $dbname = "MyMusic72"; /* Database name */
-$servername = '192.168.10.89';
-$username = 'kodi';
-$password = 'UiD$19R7610';
+$servername = '';
+$username = '';
+$password = '';
 
 $uri_search = "smb://MEDIAS/Public/musique";
 $uri_replace = "/medias/musique";
