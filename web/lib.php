@@ -11,8 +11,8 @@ $options = json_decode(file_get_contents($options_json_file) );
 $Mysql = $options->Mysql;
 $dbname = $Mysql->dbname;
 $servername = $Mysql->servername;
-$db_username = $Mysql->dbusername;
-$db_password = $Mysql->dbpassword;
+$db_username = $Mysql->db_username;
+$db_password = $Mysql->db_password;
 
 $URIs = $options->URIreplace;
 $uri_search = $URIs->uri_search;
