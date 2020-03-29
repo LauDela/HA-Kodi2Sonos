@@ -13,6 +13,7 @@
   "hassio_api": true,
   "homeassistant_api": true,
   "ingress": true,
+  "services": ["mysql:need"],
   "map": [ "share:rw" ],  
   "options": {
 	"Mysql": {
