@@ -1,4 +1,6 @@
-FROM php:7.3-apache 
+#FROM php:7.3-apache 
+ARG BUILD_FROM=hassioaddons/base:7.0.2
+FROM ${BUILD_FROM}
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
