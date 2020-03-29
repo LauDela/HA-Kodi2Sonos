@@ -18,8 +18,8 @@
 	"Mysql": {
 		"dbname": "MyMusic72",
 		"servername": "ip_of_database_host",
-		"username": "your db name",
-		"password": "db password"
+		"db_username": "your db name",
+		"db_password": "db password"
 	},
 	"URIreplace": {
 		"uri_search": "",
@@ -38,8 +38,8 @@
 		"Kodi_2_name": "ip"
 	},
 	"Kodi credentials":{
-		"user": "user",
-		"password": "pssword"
+		"kodi_user": "user",
+		"kodi_password": "password"
 	},
 	"debug" : false
   },

@@ -12,8 +12,8 @@ $options = json_decode(file_get_contents($options_json_file) );
 $Mysql = $options->Mysql;
 $dbname = $Mysql->dbname;
 $servername = $Mysql->servername;
-$username = $Mysql->username;
-$password = $Mysql->password;
+$db_username = $Mysql->dbusername;
+$db_password = $Mysql->dbpassword;
 
 $URIs = $options->URIreplace;
 $uri_search = $URIs->uri_search;
@@ -32,10 +32,10 @@ $Kodi_2_ip = $destinations->Kodi_2_ip;
 $Kodi_2_name = $destinations->Kodi_2_name;
 
 $Kodi_credentials = $options->Kodi_credentials;
-$Kuser = $Kodi_credentials->user;
-$Kpassword = $Kodi_credentials->password; 
+$Kuser = $Kodi_credentials->kodi_user;
+$Kpassword = $Kodi_credentials->kodi_password; 
 
-$conn = mysqli_connect($servername, $username, $password,$dbname);
+$conn = mysqli_connect($servername, $db_username, $db_password,$dbname);
 // Check MySQL connection
 if (!$conn) {
  die("Connection failed: " . mysqli_connect_error());
