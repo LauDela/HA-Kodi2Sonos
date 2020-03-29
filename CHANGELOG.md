@@ -9,3 +9,6 @@
 
 **Version 0.04**
 - connexion port debug
+
+**Version 0.05**
+- start debug
