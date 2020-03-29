@@ -12,3 +12,6 @@
 
 **Version 0.05**
 - start debug
+
+**Version 0.06**
+- init.sh

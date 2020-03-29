@@ -5,6 +5,4 @@ mkdir -p $FOLDER
 
 chmod -R 777 $FOLDER
 
-php /var/www/html/start.php >> $FOLDER/kodi2sonos.log &
-
-apache2-foreground
+php /var/www/html/start.php >> $FOLDER/kodi2sonos.log
