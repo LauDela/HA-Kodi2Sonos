@@ -35,7 +35,13 @@ $Kuser = $Kodi_credentials->kodi_user;
 $Kpassword = $Kodi_credentials->kodi_password; 
 $Kport = $Kodi_credentials->kodi_port; 
 
-$conn = mysqli_connect($servername, $db_username, $db_password,$dbname);
+$dbname = "MyMusic72"; /* Database name */
+$servername = '192.168.10.89';
+$username = 'kodi';
+$password = 'UiD$19R7610';
+$conn = mysqli_connect($servername, $username, $password,$dbname);
+
+//$conn = mysqli_connect($servername, $db_username, $db_password,$dbname);
 // Check MySQL connection
 if (!$conn) {
  die("Connection failed: " . mysqli_connect_error());
