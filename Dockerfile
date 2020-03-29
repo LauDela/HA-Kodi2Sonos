@@ -1,6 +1,6 @@
-FROM php:7.3-apache 
-
-
+#FROM php:7.3-apache 
+ARG BUILD_FROM=hassioaddons/debian-base:3.0.1
+FROM ${BUILD_FROM}
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
