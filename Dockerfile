@@ -20,14 +20,10 @@ RUN \
         php7.3-gd=7.3.11-1~deb10u1 \
         php7.3-intl=7.3.11-1~deb10u1 \
         php7.3-json=7.3.11-1~deb10u1 \
-        php7.3-ldap=7.3.11-1~deb10u1 \
         php7.3-mbstring=7.3.11-1~deb10u1 \
         php7.3-mysql=7.3.11-1~deb10u1 \
         php7.3-opcache=7.3.11-1~deb10u1 \
-        php7.3-readline=7.3.11-1~deb10u1 \
-        php7.3-sqlite3=7.3.11-1~deb10u1 \
         php7.3-xml=7.3.11-1~deb10u1 \
-        php7.3-zip=7.3.11-1~deb10u1 \
         php7.3=7.3.11-1~deb10u1 
 
 

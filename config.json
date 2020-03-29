@@ -47,31 +47,31 @@
   },
   "schema": {
 	"Mysql": {
-		"dbname": "str",
-		"servername": "str",
-		"db_username": "str",
-		"db_password": "str"
+		"dbname": "str?",
+		"servername": "str?",
+		"db_username": "str?",
+		"db_password": "password?"
 	},
 	"URIreplace": {
-		"uri_search": "str",
-		"uri_replace":"str",
-		"uri_search_song":"str",
-		"uri_replace_song":"str",
-		"uri_search_cover":"str",
-		"uri_replace_cover":"str"
+		"uri_search": "str?",
+		"uri_replace":"str?",
+		"uri_search_song":"str?",
+		"uri_replace_song":"str?",
+		"uri_search_cover":"str?",
+		"uri_replace_cover":"str?"
 	},
 	"Destinations":{
-		"Sonos_1_ip": "str",
-		"Sonos_1_name": "str",
-		"Kodi_1_ip": "str",
-		"Kodi_1_name": "str",
-		"Kodi_2_ip": "str",
-		"Kodi_2_name": "str"
+		"Sonos_1_ip": "str?",
+		"Sonos_1_name": "str?",
+		"Kodi_1_ip": "str?",
+		"Kodi_1_name": "str?",
+		"Kodi_2_ip": "str?",
+		"Kodi_2_name": "str?"
 	},
 	"Kodi_credentials":{
-		"kodi_user": "str",
-		"kodi_password": "str",
-		"kodi_port": "str"
+		"kodi_user": "str?",
+		"kodi_password": "str?",
+		"kodi_port": "int?"
 	},
 	"debug" : "bool"	
   },
