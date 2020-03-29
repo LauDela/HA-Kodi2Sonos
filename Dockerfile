@@ -18,9 +18,7 @@ RUN \
         php7.3-curl=7.3.11-1~deb10u1 \
         php7.3-cli=7.3.11-1~deb10u1 \
         php7.3-common=7.3.11-1~deb10u1 \
-        php7.3-gd=7.3.11-1~deb10u1 \
         php7.3-json=7.3.11-1~deb10u1 \
-        php7.3-mbstring=7.3.11-1~deb10u1 \
         php7.3-mysql=7.3.11-1~deb10u1 \
         php7.3-xml=7.3.11-1~deb10u1 \
         php7.3=7.3.11-1~deb10u1 
