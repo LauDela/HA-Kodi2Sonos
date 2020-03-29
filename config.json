@@ -15,26 +15,54 @@
   "ingress": true,
   "map": [ "share:rw" ],  
   "options": {
-	"translations": {
-		"text_ON": "Turn ON",
-		"text_OFF": "Turn OFF",
-		"text_save": "Save",
-		"text_device": "Device"
+	"Mysql": {
+		"dbname": "MyMusic72",
+		"servername": "ip_of_database_host",
+		"username": "your db name",
+		"password": "db password"
 	},
-	"components": {
-		"media_player": true
+	"URI replace": {
+		"uri_search": "",
+		"uri_replace":"",
+		"uri_search_song":"",
+		"uri_replace_song":"",
+		"uri_search_cover":"",
+		"uri_replace_cover":""
+	},
+	"Destinations":{
+		"Sonos Cuisine": "ip",
+		"Kodi Salon": "ip",
+		"Kodi Bureau": "ip"
+	},
+	"Kodi credentials":{
+		"user": "user",
+		"password": "pssword"
 	},
 	"debug" : false
   },
   "schema": {
-	"translations": {  
-		"text_ON": "str",
-		"text_OFF": "str",
-		"text_save": "str",	
-		"text_device": "str"  
+	"Mysql": {
+		"dbname": "str",
+		"servername": "str",
+		"username": "str",
+		"password": "str"
 	},
-	"components": {
-		"media_player": "bool"
+	"URI replace": {
+		"uri_search": "str",
+		"uri_replace":"str",
+		"uri_search_song":"str",
+		"uri_replace_song":"str",
+		"uri_search_cover":"str",
+		"uri_replace_cover":"str"
+	},
+	"Destinations":{
+		"Sonos Cuisine": "str",
+		"Kodi Salon": "str",
+		"Kodi Bureau": "str"
+	},
+	"Kodi credentials":{
+		"user": "user",
+		"password": "pssword"
 	},
 	"debug" : "bool"	
   },
