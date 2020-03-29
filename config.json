@@ -37,7 +37,7 @@
 		"Kodi_2_ip": "ip",
 		"Kodi_2_name": "ip"
 	},
-	"Kodi credentials":{
+	"Kodi_credentials":{
 		"kodi_user": "kodi",
 		"kodi_password": "your_kodi_password",
 		"kodi_port": "8080"
@@ -51,7 +51,7 @@
 		"db_username": "str",
 		"db_password": "str"
 	},
-	"URI replace": {
+	"URIreplace": {
 		"uri_search": "str",
 		"uri_replace":"str",
 		"uri_search_song":"str",
