@@ -15,3 +15,6 @@
 
 **Version 0.06**
 - init.sh
+
+**Version 0.07**
+- init.sh nginx
