@@ -66,7 +66,7 @@
 		"Kodi_2_ip": "str",
 		"Kodi_2_name": "str"
 	},
-	"Kodi credentials":{
+	"Kodi_credentials":{
 		"user": "user",
 		"password": "pssword"
 	},
