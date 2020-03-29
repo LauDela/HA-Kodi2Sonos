@@ -48,8 +48,8 @@
 	"Mysql": {
 		"dbname": "str",
 		"servername": "str",
-		"username": "str",
-		"password": "str"
+		"db_username": "str",
+		"db_password": "str"
 	},
 	"URI replace": {
 		"uri_search": "str",
@@ -68,8 +68,9 @@
 		"Kodi_2_name": "str"
 	},
 	"Kodi_credentials":{
-		"user": "user",
-		"password": "pssword"
+		"kodi_user": "str",
+		"kodi_password": "str",
+		"kodi_port": "str"
 	},
 	"debug" : "bool"	
   },
