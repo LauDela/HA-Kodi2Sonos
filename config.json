@@ -1,0 +1,42 @@
+{
+  "name": "Kodi2Sonos",
+  "version": "0.01",
+  "slug": "kodi2sonos",
+  "description": "An addon for playing kodi music library on sonos via HA interface",
+  "url": "https://github.com/LauDela/HA-Kodi2Sonos",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "panel_icon": "mdi:library-music",
+  "panel_title": "Kodi2Sonos",
+  "panel_admin": false,
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "ingress": true,
+  "map": [ "share:rw" ],  
+  "options": {
+	"translations": {
+		"text_ON": "Turn ON",
+		"text_OFF": "Turn OFF",
+		"text_save": "Save",
+		"text_device": "Device"
+	},
+	"components": {
+		"media_player": true
+	},
+	"debug" : false
+  },
+  "schema": {
+	"translations": {  
+		"text_ON": "str",
+		"text_OFF": "str",
+		"text_save": "str",	
+		"text_device": "str"  
+	},
+	"components": {
+		"media_player": "bool"
+	},
+	"debug" : "bool"	
+  },
+  "webui": "http://[HOST]:[PORT:8066]"
+}
