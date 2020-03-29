@@ -34,6 +34,7 @@ $Kodi_2_name = $destinations->Kodi_2_name;
 $Kodi_credentials = $options->Kodi_credentials;
 $Kuser = $Kodi_credentials->kodi_user;
 $Kpassword = $Kodi_credentials->kodi_password; 
+$Kport = $Kodi_credentials->kodi_port; 
 
 $conn = mysqli_connect($servername, $db_username, $db_password,$dbname);
 // Check MySQL connection
