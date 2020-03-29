@@ -22,25 +22,25 @@
 		"db_password": "db password"
 	},
 	"URIreplace": {
-		"uri_search": "",
-		"uri_replace":"",
-		"uri_search_song":"",
-		"uri_replace_song":"",
-		"uri_search_cover":"",
-		"uri_replace_cover":""
+		"uri_search": "smb://MEDIAS/Public/musique",
+		"uri_replace": "/medias/musique",
+		"uri_search_song": "smb",
+		"uri_replace_song": "x-file-cifs",
+		"uri_search_cover": "//MEDIAS/Public/musique",
+		"uri_replace_cover": "medias/musique"
 	},
 	"Destinations":{
-		"Sonos_1_ip": "ip",
-		"Sonos_1_name": "ip",
+		"Sonos_1_ip": "192.168.10.4",
+		"Sonos_1_name": "Cuisine",
 		"Kodi_1_ip": "ip",
 		"Kodi_1_name": "ip",
 		"Kodi_2_ip": "ip",
 		"Kodi_2_name": "ip"
 	},
 	"Kodi credentials":{
-		"kodi_user": "your_kodi_user",
+		"kodi_user": "kodi",
 		"kodi_password": "your_kodi_password",
-		"kodi_port": "your_kodi_port"
+		"kodi_port": "8080"
 	},
 	"debug" : false
   },
