@@ -1,9 +1,10 @@
 <?php
 require("sonos.class.php");
-$IP_sonos_1 = "192.168.10.4"; // cuisine
+include "lib.php";
+
 $idAlbum = $_GET["idAlbum"];
 
-$sonos_1 = new SonosPHPController($IP_sonos_1); 
+$sonos_1 = new SonosPHPController($Sonos_1_ip); 
 $lecture = $sonos_1->RemoveAllTracksFromQueue();
 $lecture = $sonos_1->SetPlayMode("NORMAL");
 

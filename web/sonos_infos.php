@@ -1,9 +1,9 @@
 <?php
 require("sonos.class.php");
-include "config.php";
+include "lib.php";
 require_once('id3/getid3/getid3.php');
 
-$sonos_1 = new SonosPHPController($IP_sonos_1); 
+$sonos_1 = new SonosPHPController($Sonos_1_ip); 
 $lecture = $sonos_1->GetTransportInfo();
 if($lecture=="PLAYING"){
     $lecture2 = $sonos_1->GetPositionInfo();

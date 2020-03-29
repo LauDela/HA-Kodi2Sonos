@@ -1,7 +1,7 @@
 <?php
 require("sonos.class.php");
-include "config.php";
+include "lib.php";
 
-$sonos_1 = new SonosPHPController($IP_sonos_1); 
+$sonos_1 = new SonosPHPController($Sonos_1_ip); 
 $lecture = $sonos_1->Previous();
 ?>

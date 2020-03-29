@@ -207,7 +207,7 @@
            <?php
   
             $idalbum =(int) $_GET['idalbum'];
-            include "config.php";
+            include "lib.php";
             $rowperpage = 1;    
             // counting total number of posts
             $allcount_query = "SELECT count(*) as allcount FROM song where idAlbum=$idalbum";

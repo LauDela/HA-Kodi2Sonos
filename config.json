@@ -21,7 +21,7 @@
 		"username": "your db name",
 		"password": "db password"
 	},
-	"URI replace": {
+	"URIreplace": {
 		"uri_search": "",
 		"uri_replace":"",
 		"uri_search_song":"",
@@ -30,9 +30,12 @@
 		"uri_replace_cover":""
 	},
 	"Destinations":{
-		"Sonos Cuisine": "ip",
-		"Kodi Salon": "ip",
-		"Kodi Bureau": "ip"
+		"Sonos_1_ip": "ip",
+		"Sonos_1_name": "ip",
+		"Kodi_1_ip": "ip",
+		"Kodi_1_name": "ip",
+		"Kodi_2_ip": "ip",
+		"Kodi_2_name": "ip",
 	},
 	"Kodi credentials":{
 		"user": "user",
@@ -56,9 +59,12 @@
 		"uri_replace_cover":"str"
 	},
 	"Destinations":{
-		"Sonos Cuisine": "str",
-		"Kodi Salon": "str",
-		"Kodi Bureau": "str"
+		"Sonos_1_ip": "str",
+		"Sonos_1_name": "str",
+		"Kodi_1_ip": "str",
+		"Kodi_1_name": "str",
+		"Kodi_2_ip": "str",
+		"Kodi_2_name": "str"
 	},
 	"Kodi credentials":{
 		"user": "user",

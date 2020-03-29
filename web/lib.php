@@ -8,8 +8,38 @@ date_default_timezone_set(get_ha_timezone());
 
 $logfile="/share/kodi2sonos/kodi2sonos.log";
 $options = json_decode(file_get_contents($options_json_file) );
-$translations = $options->translations;
-$components = (array) $options->components;
+
+$Mysql = $options->Mysql;
+$dbname = $Mysql->dbname;
+$servername = $Mysql->servername;
+$username = $Mysql->username;
+$password = $Mysql->password;
+
+$URIs = $options->URIreplace;
+$uri_search = $URIs->uri_search;
+$uri_replace = $URIs->uri_replace; 
+$uri_search_song = $URIs->uri_search_song;
+$uri_replace_song = $URIs->uri_replace_song;
+$uri_search_cover = $URIs->uri_search_cover;
+$uri_replace_cover = $URIs->uri_replace_cover;
+
+$destinations = $options->Destinations;
+$Sonos_1_ip = $destinations->Sonos_1_ip;
+$Sonos_1_name = $destinations->Sonos_1_name; 
+$Kodi_1_ip = $destinations->Kodi_1_ip;
+$Kodi_1_name = $destinations->Kodi_1_name;
+$Kodi_2_ip = $destinations->Kodi_2_ip; 
+$Kodi_2_name = $destinations->Kodi_2_name;
+
+$Kodi_credentials = $options->Kodi_credentials;
+$Kuser = $Kodi_credentials->user;
+$Kpassword = $Kodi_credentials->password; 
+
+$conn = mysqli_connect($servername, $username, $password,$dbname);
+// Check MySQL connection
+if (!$conn) {
+ die("Connection failed: " . mysqli_connect_error());
+}
 
 if ($options->debug) {
 		error_reporting(E_ALL);

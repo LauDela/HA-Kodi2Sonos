@@ -191,7 +191,7 @@
 	
     <?php
           $idArtist =(int) $_GET['idartist'];
-            include "config.php";
+            include "lib.php";
             $rowperpage = 18;    
             // counting total number of posts
             $allcount_query = "SELECT count(*) as allcount FROM album_artist where idArtist=$idArtist";
