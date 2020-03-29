@@ -15,7 +15,6 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         mariadb-client=1:10.3.22-0+deb10u1 \
-        nginx=1.14.2-2+deb10u1 \
         php7.3-curl=7.3.11-1~deb10u1 \
         php7.3-cli=7.3.11-1~deb10u1 \
         php7.3-common=7.3.11-1~deb10u1 \
@@ -25,8 +24,6 @@ RUN \
         php7.3-json=7.3.11-1~deb10u1 \
         php7.3-mbstring=7.3.11-1~deb10u1 \
         php7.3-mysql=7.3.11-1~deb10u1 \
-        php7.3-opcache=7.3.11-1~deb10u1 \
-        php7.3-readline=7.3.11-1~deb10u1 \
         php7.3-xml=7.3.11-1~deb10u1 \
         php7.3=7.3.11-1~deb10u1 
 
