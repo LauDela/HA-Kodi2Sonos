@@ -38,7 +38,7 @@ RUN \
         unzip=6.0-23+deb10u1
 
 
-COPY 000-default.conf /etc/nginx/sites-available
+COPY nginx.conf /etc/nginx/conf
 COPY /web /var/www/html
 
 COPY init.sh /home
