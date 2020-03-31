@@ -14,7 +14,10 @@
   "homeassistant_api": true,
   "ingress": true,
   "services": ["mysql:need"],
-  "map": [ "share:rw" ],  
+  "map": [ "share:rw" ], 
+  "ports": {
+    "8066/tcp": 8066
+  },	
   "options": {
 	"Mysql": {
 		"dbname": "MyMusic72",
