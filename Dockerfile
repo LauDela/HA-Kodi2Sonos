@@ -38,7 +38,7 @@ RUN \
         unzip=6.0-23+deb10u1
 
 
-COPY nginx.conf /etc/nginx/conf
+COPY nginx.conf /etc/nginx
 COPY /web /var/www/html
 
 COPY init.sh /home
