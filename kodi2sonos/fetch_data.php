@@ -1,7 +1,7 @@
 <?php
 
 // configuration
-include 'config.php';
+include 'lib.php';
 
 $row = $_POST['row'];
 $rowperpage = 6;
