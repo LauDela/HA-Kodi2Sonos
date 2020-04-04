@@ -10,9 +10,7 @@ $logfile="/share/kodi2sonos/kodi2sonos.log";
 $options = json_decode(file_get_contents($options_json_file) );
 
 $Mysql = $options->Mysql;
-
 $dbname = $Mysql->dbname;
-
 $servername = $Mysql->servername;
 $db_username = $Mysql->db_username;
 $db_password = $Mysql->db_password;
@@ -38,11 +36,8 @@ $Kuser = $Kodi_credentials->kodi_user;
 $Kpassword = $Kodi_credentials->kodi_password; 
 $Kport = $Kodi_credentials->kodi_port; 
 
-
 $conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
 
-//$conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
-// Check MySQL connection
 if (!$conn) {
  die("Connection failed: " . mysqli_connect_error());
 }
