@@ -14,7 +14,7 @@ if($lecture=="PLAYING"){
     $lecture_cover = substr($lecture2["TrackURI"],12);
     $lecture_cover = str_replace($uri_search_cover,$uri_replace_cover,$lecture_cover);
     
-    echo "COVER=".$lecture_cover;
+    //echo "COVER=".$lecture_cover;
     //COVER ART
     $getID3 = new getID3;
     $ThisFileInfo = $getID3->analyze($lecture_cover);
