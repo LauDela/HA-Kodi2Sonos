@@ -186,7 +186,7 @@
     <main>
     <div id="info_media"></div>
     <div class="controls">
-          <table><tr><td><div id="prev"><img src="http://hassio.local:8099/web_images/skip-to-start-50.png"></div></td><td><div id="play"><img src="http://hassio.local:8099/web_images/play-50.png"></div></td><td><div id="pause"><img src="http://hassio.local:8099/web_images/pause-50.png"></div></td><td><div id="stop"><img src="http://hassio.local:8099/web_images/stop-50.png"></td><td><div id="next"><img src="http://hassio.local:8099/web_images/end-50.png"></div></td><td class="shuffle"><div id="shuffle"><a href="#"><img src="http://hassio.local:8099/web_images/shuffle-50.png"></a></div></td><td><img src="http://hassio.local:8099/web_images/repeat-50.png"></td></tr></table>
+          <table><tr><td><button onclick="goBack()"><img src="http://hassio.local:8099/web_images/history_back.png" width="50px"></button></td><td><div id="prev"><img src="http://hassio.local:8099/web_images/skip-to-start-50.png"></div></td><td><div id="play"><img src="http://hassio.local:8099/web_images/play-50.png"></div></td><td><div id="pause"><img src="http://hassio.local:8099/web_images/pause-50.png"></div></td><td><div id="stop"><img src="http://hassio.local:8099/web_images/stop-50.png"></td><td><div id="next"><img src="http://hassio.local:8099/web_images/end-50.png"></div></td><td class="shuffle"><div id="shuffle"><a href="#"><img src="http://hassio.local:8099/web_images/shuffle-50.png"></a></div></td><td><img src="http://hassio.local:8099/web_images/repeat-50.png"></td></tr></table>
     </div>   
 	
     <?php
