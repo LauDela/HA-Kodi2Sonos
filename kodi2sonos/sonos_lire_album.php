@@ -16,7 +16,8 @@ $result = mysqli_query($conn,$sql);
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         $chemin = $row["chemin"]; 
-        $chemin1 = str_replace("smb","x-file-cifs",$chemin);
+        $chemin = str_replace("&","%26",$chemin);
+        $chemin1 = str_replace($uri_search_song,$uri_replace_song,$chemin);
         $lecture = $sonos_1->AddURIToQueue($chemin1,$next=0);
     }    
 $lecture = $sonos_1->Play();
