@@ -193,6 +193,7 @@
      <section class="cards">
  <?php
             include "lib.php";
+            echo "JSON=".$options_json_file."<br><br>";
             $rowperpage = 18;    
             // counting total number of posts
             $allcount_query = "SELECT count(*) as allcount FROM artist";
