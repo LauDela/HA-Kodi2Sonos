@@ -1,6 +1,6 @@
 {
   "name": "Kodi2Sonos",
-  "version": "0.045",
+  "version": "0.046",
   "slug": "kodi2sonos",
   "description": "An addon for playing kodi music library on sonos via HA interface",
   "url": "https://github.com/LauDela/HA-Kodi2Sonos",
@@ -28,7 +28,7 @@
 	   },
 	   "URIreplace": {
 		    "uri_search": "smb://MEDIAS/Public/musique",
-		    "uri_replace": "/medias/musique",
+		    "uri_replace": "http://192.168.10.89/medias/musique",
 		    "uri_search_song": "smb",
 		    "uri_replace_song": "x-file-cifs",
 		    "uri_search_cover": "//MEDIAS/Public/musique",
