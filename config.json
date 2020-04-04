@@ -1,6 +1,6 @@
 {
   "name": "Kodi2Sonos",
-  "version": "0.048",
+  "version": "0.049",
   "slug": "kodi2sonos",
   "description": "An addon for playing kodi music library on sonos via HA interface",
   "url": "https://github.com/LauDela/HA-Kodi2Sonos",
