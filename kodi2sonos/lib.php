@@ -12,7 +12,7 @@ $options = json_decode(file_get_contents($options_json_file) );
 $Mysql = $options->Mysql;
 
 $dbname = $Mysql->dbname;
-echo "MYSQL=".$dbname."<br><br>";
+
 $servername = $Mysql->servername;
 $db_username = $Mysql->db_username;
 $db_password = $Mysql->db_password;
@@ -39,7 +39,7 @@ $Kpassword = $Kodi_credentials->kodi_password;
 $Kport = $Kodi_credentials->kodi_port; 
 
 
-$conn = mysqli_connect($servername, $username, $password,$dbname,3307);
+$conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
 
 //$conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
 // Check MySQL connection
