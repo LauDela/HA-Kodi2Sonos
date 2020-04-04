@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 include_once("conf.php");
 
 
- 
+$options = array(); 
 $logfile="/share/kodi2sonos/kodi2sonos.log";
 $options = json_decode(file_get_contents($options_json_file) );
 
