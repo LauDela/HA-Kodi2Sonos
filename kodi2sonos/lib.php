@@ -4,12 +4,13 @@ ini_set('display_startup_errors', 1);
 
 include_once("conf.php");
 
- echo "JSON=".$options_json_file."<br><br>";
+
  
 $logfile="/share/kodi2sonos/kodi2sonos.log";
 $options = json_decode(file_get_contents($options_json_file) );
 
 $Mysql = $options->Mysql;
+ echo "MYSQL=".$Mysql."<br><br>";
 $dbname = $Mysql->dbname;
 $servername = $Mysql->servername;
 $db_username = $Mysql->db_username;
