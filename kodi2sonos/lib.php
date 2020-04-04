@@ -35,10 +35,7 @@ $Kuser = $Kodi_credentials->kodi_user;
 $Kpassword = $Kodi_credentials->kodi_password; 
 $Kport = $Kodi_credentials->kodi_port; 
 
-$dbname = "MyMusic72"; /* Database name */
-$servername = '192.168.10.89';
-$username = 'kodi';
-$password = 'UiD$19R7610';
+
 $conn = mysqli_connect($servername, $username, $password,$dbname,3307);
 
 //$conn = mysqli_connect($servername, $db_username, $db_password,$dbname,3307);
