@@ -21,13 +21,8 @@ RUN \
         php7-zip=7.3.16-r0 \
         php7=7.3.16-r0 \
     \
-    && mkdir /var/www/kodi2sonos \
-    && find /var/www/ -type f -name "*.md" -depth -exec rm -f {} \; \
-    && rm -f -r \
-        /tmp/* \
-        /etc/nginx \
-        /var/www/kodi2sonos/id3 \
-        /var/www/kodi2sonos/RELEASE-DATE-*
+    && mkdir /var/www/kodi2sonos 
+    
 
 # Copy root filesystem
 COPY rootfs /
