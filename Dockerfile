@@ -30,7 +30,7 @@ RUN \
         /var/www/kodi2sonos/RELEASE-DATE-*
 
 # Copy root filesystem
-COPY rootfs /var/www/kodi2sonos
+COPY rootfs /
 
 # Build arguments
 ARG BUILD_ARCH
