@@ -3,7 +3,6 @@ require("sonos.class.php");
 include "lib.php";
 
 $chemin = $_GET["chemin"];
-$chemin = str_replace("&","%26",$chemin);
 
 $sonos_1 = new SonosPHPController($Sonos_1_ip); 
 $lecture = $sonos_1->RemoveAllTracksFromQueue();
