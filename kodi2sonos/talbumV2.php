@@ -221,7 +221,7 @@
               <table id="pistes">
                 <thead>
                   <tr>
-                    <th><a href="<?php echo $idalbum; ?>"><img src="/web_images/play_all.png" alt="Play All" width="50px"></a></th>
+                    <th><a href="<?php echo $idalbum; ?>"><img src="http://hassio.local:8099/web_images/play_all.png" alt="Play All" width="50px"></a></th>
                     <th>#</th>
                     <th>Titre</th>
                     <th>Durée</th>
@@ -240,7 +240,7 @@
                           $chemin1 = str_replace($uri_search_song,$uri_replace_song,$chemin);
               ?>
               <tr> 
-                  <td><a href="<?php echo $chemin1; ?>"><img src="/web_images/play-50.png" width="35px"></a></td>
+                  <td><a href="<?php echo $chemin1; ?>"><img src="http://hassio.local:8099/web_images/play-50.png" width="35px"></a></td>
                   <td><?php echo $piste; ?></td>
                   <td><?php echo $titre; ?></td>
                   <td><?php echo $duree; ?></td>
