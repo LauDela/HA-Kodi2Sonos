@@ -21,6 +21,7 @@ if($lecture=="PLAYING"){
     $getID3->CopyTagsToComments($ThisFileInfo); 
     $image_mime = $ThisFileInfo['comments']['picture'][0]['image_mime'];   
     $cover = '<img src="data:'.$image_mime.';base64,'.base64_encode($ThisFileInfo['comments']['picture'][0]['data']).'" height="60px" width="60px">';
+    $cover = '';
     echo "<table><tr><td width='61px'>".$cover."</td><td>".$lecture_TitleArtist."<br>".$lecture_titre."<br>".$lecture_Album."</td></tr></table>";
 } else{
   $cover="";
