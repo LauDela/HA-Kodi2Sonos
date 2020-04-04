@@ -3,7 +3,11 @@
 # Home Assistant Community Add-on: kodi2sonos
 # Runs the Nginx daemon
 # ==============================================================================
+FOLDER=/share/kodi2sonos
 
+mkdir -p $FOLDER
+
+chmod -R 777 $FOLDER
 # Wait for PHP-FPM to become available
 bashio::net.wait_for 9001
 

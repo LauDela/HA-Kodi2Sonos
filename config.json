@@ -1,6 +1,6 @@
 {
   "name": "Kodi2Sonos",
-  "version": "0.032",
+  "version": "0.034",
   "slug": "kodi2sonos",
   "description": "An addon for playing kodi music library on sonos via HA interface",
   "url": "https://github.com/LauDela/HA-Kodi2Sonos",
@@ -13,6 +13,7 @@
   "init": false,
   "hassio_api": true,
   "hassio_role": "default",
+  "homeassistant_api": true,
   "ingress": true,
   "services": ["mysql:need"], 
   "ports": {
