@@ -16,7 +16,7 @@ $html = '';
 
 while($row = mysqli_fetch_array($result)){
     
-    $url3 = str_replace("smb://MEDIAS/Public/musique","/medias/musique",$row["url"]);
+    $url3 = str_replace($uri_search,$uri_replace,$row["url"]);
     $id_artist =  $row["idArtist"];
     $artist = $row["strArtist"];
     // Creating HTML structure
