@@ -38,9 +38,9 @@
 		    "Sonos_1_ip": "192.168.10.4",
 		    "Sonos_1_name": "Cuisine",
 		    "Kodi_1_ip": "ip",
-		    "Kodi_1_name": "ip",
+		    "Kodi_1_name": "name",
 		    "Kodi_2_ip": "ip",
-		    "Kodi_2_name": "ip"
+		    "Kodi_2_name": "name"
 	   },
 	   "Kodi_credentials":{
 		    "kodi_user": "kodi",
