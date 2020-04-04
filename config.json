@@ -1,6 +1,6 @@
 {
   "name": "Kodi2Sonos",
-  "version": "0.020",
+  "version": "0.021",
   "slug": "kodi2sonos",
   "description": "An addon for playing kodi music library on sonos via HA interface",
   "url": "https://github.com/LauDela/HA-Kodi2Sonos",
@@ -16,7 +16,7 @@
   "ingress": true,
   "services": ["mysql:need"], 
   "ports": {
-    "8066/tcp": 8066
+    "8099/tcp": 8099
   },	
   "options": {
 	   "Mysql": {
@@ -78,6 +78,5 @@
 	   },
 	   "debug" : "bool",
      "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"	
-  },
-  "webui": "http://[HOST]:[PORT:8066]"
+  }
 }
