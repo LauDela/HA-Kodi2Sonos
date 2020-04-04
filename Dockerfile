@@ -26,7 +26,7 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
-
+COPY kodi2sonos /var/ww
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
