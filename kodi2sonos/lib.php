@@ -10,8 +10,9 @@ $logfile="/share/kodi2sonos/kodi2sonos.log";
 $options = json_decode(file_get_contents($options_json_file) );
 
 $Mysql = $options->Mysql;
- echo "MYSQL=".$Mysql."<br><br>";
+
 $dbname = $Mysql->dbname;
+echo "MYSQL=".$dbname."<br><br>";
 $servername = $Mysql->servername;
 $db_username = $Mysql->db_username;
 $db_password = $Mysql->db_password;
